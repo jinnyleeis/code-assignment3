@@ -14,11 +14,12 @@ using Python.Runtime;
 
 
 using System.IO;
+using UnityEngine;
 
 
 namespace PythonExecutor
 {
-    class Program
+    class Program:MonoBehaviour
     {    // 환경설정 Path를 설정하는 함수이다. 실제 Path가 바뀌는 건 아니고 프로그램 세션 안에서만 path를 변경해서 사용한다.
 
         //public static void DisplayNDarray(NDarray nDarray, string name = "")
