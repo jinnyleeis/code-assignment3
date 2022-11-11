@@ -53,7 +53,7 @@ namespace PythonExecutor
 
             //Runtime.PythonDLL = @"C:\Users\moon\anaconda3\python38.dll";
             // Runtime.PythonDLL = @"C:\Users\moon\AppData\Local\Programs\Python\Python38\python38.dll";
-            Environment.SetEnvironmentVariable("PYTHONNET_PYDLL", @"C:\Users\moon\AppData\Local\Programs\Python\Python38\python38.dll", EnvironmentVariableTarget.Process);
+            Environment.SetEnvironmentVariable("PYTHONNET_PYDLL", @"C:/Users/jiinlee/opt/anaconda3/envs/gest_env.dll", EnvironmentVariableTarget.Process);
 
 
             //Console.WriteLine("1 PythonPath={0}\n", PythonEngine.PythonPath);
@@ -86,7 +86,7 @@ namespace PythonExecutor
 
             //var PYTHON_HOME = Environment.ExpandEnvironmentVariables(@"C:\Users\moon\anaconda3");
 
-            var PYTHON_HOME = Environment.ExpandEnvironmentVariables(@"C:\Users\moon\AppData\Local\Programs\Python\Python38");
+            var PYTHON_HOME = Environment.ExpandEnvironmentVariables(@"C:/Users/jiinlee/opt/anaconda3/envs/gest_env");
 
             // http://www.delphibasics.co.uk/Method.asp?NameSpace=System&Class=Environment&Type=Class&Method=ExpandEnvironmentVariables
 
